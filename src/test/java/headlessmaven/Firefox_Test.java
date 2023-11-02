@@ -27,16 +27,18 @@ public class Firefox_Test {
 		WebDriver driver = new FirefoxDriver(option);
 
 		driver.get("https://www.google.com/");
-		System.out.print("Title is :" + driver.getTitle());
+		System.out.println("Title is :" + driver.getTitle());
 
 		
 		WebElement sarch = driver.findElement(By.name("q"));
 		
 		sarch.sendKeys("India Gate");
 		sarch.sendKeys(Keys.ENTER);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
+		
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
 
-		System.out.println("Title is Before :" + driver.getTitle());
+	System.out.print("Title is before :" + driver.getTitle());
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
 
 		driver.close();
 	}

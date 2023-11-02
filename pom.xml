@@ -29,11 +29,18 @@
   </dependency>
 
 
+ 
+   
    <dependency>
-   	<groupId>Automationtesting</groupId>
-   	<artifactId>Maventesting</artifactId>
-   	<version>0.0.1-SNAPSHOT</version>
-   </dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.16</version>
+</dependency> 
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+
+
+
+
   </dependencies>
   
   <build>

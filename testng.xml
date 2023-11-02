@@ -5,6 +5,7 @@
          <classes>
              <class name="headlessmaven.Test_title"/>
          <class name="headlessmaven.Firefox_Test"/>
+         <class name="headlessmaven.Openfacebook"/>
           </classes>
      </test> <!-- Test -->
 </suite> <!-- Suite -->
