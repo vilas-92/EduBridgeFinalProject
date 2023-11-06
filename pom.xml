@@ -7,7 +7,7 @@
   <dependencies>
 	  
 	  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-	  <!-- this is test demo for check push commit -->
+	  
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
