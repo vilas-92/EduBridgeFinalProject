@@ -31,7 +31,7 @@ public class Test_title {
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver(option);
 		driver.get("https://www.google.com/");
-
+		<!-- check print title -->
 		System.out.print("Title is : brfore test: "+ driver.getTitle() );
 	}
 
