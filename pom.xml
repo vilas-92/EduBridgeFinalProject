@@ -7,7 +7,7 @@
   <dependencies>
 	  
 	  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-	  <!-- teting jenkins -->
+	
 	  
 <dependency>
     <groupId>org.testng</groupId>
