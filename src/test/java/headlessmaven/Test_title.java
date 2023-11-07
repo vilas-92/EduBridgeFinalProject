@@ -24,7 +24,7 @@ public class Test_title {
 	@BeforeTest
 	public void BeforeOpen() {
 
-
+		// creating instance of ChromeOption
 		ChromeOptions option = new ChromeOptions();
 		option.addArguments("--headless=new");
 
